@@ -23,6 +23,8 @@ if(CONFIG_SOC_ESP32)
     ../components/efuse/include
     ../components/esp_system/include
     ../components/esp_wifi/esp32/include
+    ../components/esp_timer/include
+    ../components/esp_timer/private_include
     ../components/esp_netif/include
     ../components/esp_event/include
     )
