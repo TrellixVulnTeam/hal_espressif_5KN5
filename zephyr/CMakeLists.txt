@@ -14,6 +14,14 @@ if(CONFIG_SOC_ESP32)
     ../components/xtensa/esp32/include
     ../components/soc/soc/include
     ../components/soc/soc/esp32/include
+    ../components/soc/soc/esp32
+    ../components/esp_wifi/include
+    ../components/efuse/esp32/include
+    ../components/efuse/include
+    ../components/esp_system/include
+    ../components/esp_wifi/esp32/include
+    ../components/esp_netif/include
+    ../components/esp_event/include
     )
 
   zephyr_link_libraries(
