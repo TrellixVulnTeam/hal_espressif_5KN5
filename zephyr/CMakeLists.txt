@@ -27,6 +27,13 @@ if(CONFIG_SOC_ESP32)
     ../components/esp_timer/private_include
     ../components/esp_netif/include
     ../components/esp_event/include
+    ../components/log/include
+    ../components/wpa_supplicant/include
+    ../components/wpa_supplicant/port/include
+    ../components/wpa_supplicant/src
+    ../components/wpa_supplicant/include/esp_supplicant
+    ../components/wpa_supplicant/src/crypto
+    ../components/wpa_supplicant/src
     )
 
   zephyr_link_libraries(
