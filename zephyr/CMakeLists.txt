@@ -14,6 +14,9 @@ if(CONFIG_SOC_ESP32)
     ../components/xtensa/esp32/include
     ../components/soc/soc/include
     ../components/soc/soc/esp32/include
+    ../components/soc/include
+    ../components/soc/src/esp32/include
+    ../components/driver/include
     ../components/soc/soc/esp32
     ../components/esp_wifi/include
     ../components/efuse/esp32/include
