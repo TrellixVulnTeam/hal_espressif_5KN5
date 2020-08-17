@@ -37,6 +37,7 @@
 #include "esp_coexist_internal.h"
 #include "driver/periph_ctrl.h"
 #include "esp_private/wifi.h"
+#include "esp_timer.h"
 
 #if CONFIG_IDF_TARGET_ESP32
 #include "esp32/rom/ets_sys.h"
